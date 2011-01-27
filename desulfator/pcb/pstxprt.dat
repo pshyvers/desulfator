@@ -1,0 +1,190 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.3.0 p002Dec-27-2010 at 23:29:37 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DESULFATOR';
+ POST_TIME='Sep 27 2010 20:31:27';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_ELECTROLYTIC400_100UF':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22708@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22708@discrete.\c.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22708@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_CAP196_.0047UF':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22626@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22626@discrete.\c.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22626@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_ELECTROLYTIC400_100UF':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22740@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22740@discrete.\c.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22740@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_CAP196_0.01UF':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22610@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22610@discrete.\c.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22610@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE ZENER_DO41_1N4744':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS23435@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins23435@discrete.\diode zener.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins23435@discrete.\diode zener.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'DIODE_R6_FR602':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS23664@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins23664@discrete.\diode.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins23664@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'DIODE_DO35_1N4148':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS23339@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins23339@discrete.\diode.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins23339@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'DIODE_DO35_1N4148':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS23361@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins23361@discrete.\diode.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins23361@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F1 'FUSE_FUSE200_2A':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22840@DISCRETE.FUSE.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22840@discrete.\fuse.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22840@discrete.\fuse.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR IRON_IND335_1000UH':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22774@DISCRETE.INDUCTOR IRON.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22774@discrete.\inductor iron.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22774@discrete.\inductor iron.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR IRON_IND335_220UH':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22790@DISCRETE.INDUCTOR IRON.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22790@discrete.\inductor iron.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22790@discrete.\inductor iron.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'IRFZ44N/TO_TO220AB_IRFZ44N/TO':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS23283@TRANSISTOR.IRFZ44N/TO.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins23283@transistor.\irfz44n/to.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins23283@transistor.\irfz44n/to.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 '2N2907_TO92_2N2907':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS23171@TRANSISTOR.2N2907.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins23171@transistor.\2n2907.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins23171@transistor.\2n2907.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_100':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22815@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22815@discrete.\r.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22815@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_15K':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22651@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22651@discrete.\r.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22651@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_270K':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22585@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22585@discrete.\r.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22585@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_15K':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22667@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22667@discrete.\r.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22667@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'NE555/SO_0_DIP8_3_NE555/SO':;
+
+SECTION_NUMBER 1
+ '@DESULFATOR.DESULFATOR(SCH_1):INS22544@DESULFATOR.NE555/SO_0.NORMAL(CHIPS)':
+ C_PATH='@desulfator.desulfator(sch_1):ins22544@desulfator.\ne555/so_0.normal\(chips)',
+ P_PATH='@desulfator.desulfator(sch_1):page2_ins22544@desulfator.\ne555/so_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

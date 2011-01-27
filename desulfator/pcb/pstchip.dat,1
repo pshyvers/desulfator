@@ -1,0 +1,250 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.3.0 p002Dec-27-2010 at 23:18:21}
+primitive 'C_CAP196_100UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='cap196';
+    VALUE='100uF';
+  end_body;
+end_primitive;
+primitive 'C_CAP196_.0047UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='cap196';
+    VALUE='.0047uF';
+  end_body;
+end_primitive;
+primitive 'C_CAP196_0.01UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='cap196';
+    VALUE='0.01uF';
+  end_body;
+end_primitive;
+primitive 'DIODE ZENER_DO41_1N4744';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE ZENER';
+    JEDEC_TYPE='do41';
+    VALUE='1N4744';
+  end_body;
+end_primitive;
+primitive 'DIODE_R6_FR602';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='R6';
+    VALUE='FR602';
+  end_body;
+end_primitive;
+primitive 'DIODE_DO35_1N4148';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='do35';
+    VALUE='1N4148';
+  end_body;
+end_primitive;
+primitive 'FUSE_FUSE200_2A';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='FUSE';
+    JEDEC_TYPE='fuse200';
+    VALUE='2A';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR IRON_IND335_1000UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR IRON';
+    JEDEC_TYPE='ind335';
+    VALUE='1000uH';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR IRON_IND335_220UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR IRON';
+    JEDEC_TYPE='ind335';
+    VALUE='220uH';
+  end_body;
+end_primitive;
+primitive 'IRFZ44N/TO_TO220AB_IRFZ44N/TO';
+  pin
+    'D':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'S':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IRFZ44N/TO';
+    JEDEC_TYPE='to220ab';
+    VALUE='IRFZ44N/TO';
+  end_body;
+end_primitive;
+primitive '2N2907_TO92_2N2907';
+  pin
+    'COLLECTOR':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'EMITTER':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'BASE':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='2N2907';
+    JEDEC_TYPE='to92';
+    VALUE='2N2907';
+  end_body;
+end_primitive;
+primitive 'R_RES400_100';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='res400';
+    VALUE='100';
+  end_body;
+end_primitive;
+primitive 'R_RES400_15K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='res400';
+    VALUE='15k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_270K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='res400';
+    VALUE='270k';
+  end_body;
+end_primitive;
+primitive 'NE555/SO_0_DIP8_3_NE555/SO';
+  pin
+    'OUT':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+    'RST':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+    'CV':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    'TRG':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'THR':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'DSCHG':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    POWER_PINS='(GND:1)';
+    PART_NAME='NE555/SO_0';
+    JEDEC_TYPE='dip8_3';
+    VALUE='NE555/SO';
+  end_body;
+end_primitive;
+END.

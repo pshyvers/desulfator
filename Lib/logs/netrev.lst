@@ -1,0 +1,91 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : Desulfator.brd                                )
+(    Software Version : 16.3S018                                      )
+(    Date/Time        : Tue Nov 30 03:08:23 2010                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'Desulfator.brd';
+NEW_BOARD_NAME 'Desulfator.brd';
+
+CmdLine: netrev -$ -i C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB -y 1 C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Lib/#Taaaaaa03388.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB/pstchip.dat 
+   Finished reading C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB/pstchip.dat (00:00:00.06)
+Starting to read C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB/pstxprt.dat 
+   Finished reading C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB/pstxnet.dat 
+   Finished reading C:/Users/pshyvers/Documents/My Dropbox/Class/CMPE174/Lab4/Desulfator/PCB/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.3/share/local/pcb/modules 
+           ../../lib/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           ../../lib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           ../../lib/padstacks 
+           ../../lib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 30 3:08:23 2010
+   DESIGN NAME : 'DESULFATOR'
+   PACKAGING ON Sep 27 2010 20:31:27
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:43
+elapsed time  0:00:00
+

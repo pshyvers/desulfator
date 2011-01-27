@@ -1,0 +1,52 @@
+
+--------------------------------------------------
+Checking Schematic: Desulfator
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: Desulfator
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: DESULFATOR 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+#1 Error   [ALG0012] Property "PCB Footprint" missing from instance C3: Desulfator, 2 Power and Oscillator (5.10, 4.40).
+#2 Error   [ALG0012] Property "PCB Footprint" missing from instance L1: Desulfator, 2 Power and Oscillator (4.20, 2.30).
+#3 Error   [ALG0012] Property "PCB Footprint" missing from instance L2: Desulfator, 2 Power and Oscillator (4.20, 3.00).
+#4 Error   [ALG0012] Property "PCB Footprint" missing from instance C1: Desulfator, 2 Power and Oscillator (1.10, 2.60).
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

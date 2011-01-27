@@ -1,0 +1,1683 @@
+$Header
+$Program	GerbTool GT-Designer (16.1.13)
+	Version	16.0
+	Created	Wed Dec 01 21:27:19 2010
+$End
+$Environment
+	SketchMode	No
+	OverlayMode	No
+	ShowErrors	No
+	ViewComposites	Yes
+	OrthoSnap	No
+	SnapAngle	45.0000
+	ActiveLayer	8
+	CurrentDcode	10
+	PreviousView	0.385, -0.626, 2.679, 1.202
+	FilmBox	2.000, 2.000, yellow
+	DesignID		0xbcc8933
+	UniqID		0x35
+	NetID		0
+	Flags		0
+	NetCompareOk		No
+	GenAutoDrills		No
+$End
+$Netlist
+	DrillLayer	1
+	WellBehaved	No
+	IncludeSinglePointNets	Yes
+	IgnoreSelectGroup	No
+	PreserveNetNames	No
+	GenByVersion	16.0
+	Clean		Yes
+	IsoPadsTagged	No
+$End
+$Views
+$End
+$TabViews
+$End
+$Layer	1
+	File		desulfator_v1BOTTOM.art
+	LyrName	desulfator_v1BOTTOM
+	Visibility	On
+	FlashColor	0xff
+	DrawColor	0xae
+	Type		Bottom
+	Polarity	Dark
+	Key		0
+	Extents	0.021, 0.057, 1.916, 1.922
+	ID		0xbcc8934
+	NetID		0
+	Virtual	0
+$End
+$Layer	2
+	File		desulfator_v1MECH.art
+	LyrName	desulfator_v1MECH
+	Visibility	On
+	FlashColor	0x80ff
+	DrawColor	0x57ae
+	Type		Drawing
+	Polarity	Dark
+	Key		0
+	Extents	-0.099, -0.103, 2.101, 2.097
+	ID		0xbcc8935
+	NetID		0
+	Virtual	0
+$End
+$Layer	3
+	File		desulfator_v1SMB.art
+	LyrName	desulfator_v1SMB
+	Visibility	On
+	FlashColor	0xffff
+	DrawColor	0xaeae
+	Type		Mask Bot
+	Polarity	Dark
+	Key		0
+	Extents	0.029, 0.025, 1.974, 1.970
+	ID		0xbcc8936
+	NetID		0
+	Virtual	0
+$End
+$Layer	4
+	File		desulfator_v1SMT.art
+	LyrName	desulfator_v1SMT
+	Visibility	On
+	FlashColor	0xff00
+	DrawColor	0xae00
+	Type		Mask Top
+	Polarity	Dark
+	Key		0
+	Extents	0.029, 0.025, 1.974, 1.970
+	ID		0xbcc8937
+	NetID		0
+	Virtual	0
+$End
+$Layer	5
+	File		desulfator_v1SSB.art
+	LyrName	desulfator_v1SSB
+	Visibility	On
+	FlashColor	0xffff00
+	DrawColor	0xc4c400
+	Type		Silk Bot
+	Polarity	Dark
+	Key		0
+	Extents	0.000, 0.000, 0.000, 0.000
+	ID		0xbcc8938
+	NetID		0
+	Virtual	0
+$End
+$Layer	6
+	File		desulfator_v1SST.art
+	LyrName	desulfator_v1SST
+	Visibility	On
+	FlashColor	0xff0000
+	DrawColor	0xae0000
+	Type		Silk Top
+	Polarity	Dark
+	Key		0
+	Extents	0.235, 0.103, 1.646, 1.850
+	ID		0xbcc8939
+	NetID		0
+	Virtual	0
+$End
+$Layer	7
+	File		desulfator_v1TOP.art
+	LyrName	desulfator_v1TOP
+	Visibility	On
+	FlashColor	0xff00ff
+	DrawColor	0xae00ae
+	Type		Top
+	Polarity	Dark
+	Key		0
+	Extents	0.051, 0.047, 1.916, 1.910
+	ID		0xbcc893a
+	NetID		0
+	Virtual	0
+$End
+$Layer	8
+	File		C:\Documents and Settings\pshyvers\Desktop\My Dropbox\Class\CMPE174\Lab4\Desulfator\PCB\artwork\NCdrill-1-2.drl
+	LyrName	NCdrill-1-2
+	Visibility	On
+	FlashColor	0xc0c0c0
+	DrawColor	0x808080
+	Type		NC
+	Polarity	Dark
+	Key		0
+	Extents	0.038, 0.034, 1.963, 1.959
+	ID		0xbcc893b
+	NetID		0
+	Virtual	0
+$End
+$LayerSets
+$End
+$ExportHPGL
+	OutFile	Desulfator_v1.plt
+	MediaSize	34.000, 22.000
+	Offset		0.000, 0.000
+	Scale		1.0000
+	Border	No 0
+	PenWidth	0.010
+	PenSpeed	60
+	$Pens
+		Layer 1	1	1
+		Layer 2	1	1
+		Layer 3	1	1
+		Layer 4	1	1
+		Layer 6	1	1
+		Layer 7	1	1
+		Layer 8	1	1
+	$End
+	Spread	No
+	$SpreadOffset
+	$End
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+$End
+$ExportPostScript
+	OutFile	Desulfator_v1.ps
+	MediaSize	8.000, 10.500
+	Offset		0.000, 0.000
+	Scale		1.0000
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+	GreyScale	No
+	Border	No
+$End
+$ImportHPGL
+	PlotSize	Large
+	Rotate		No
+	$PenSizes
+		1	0.0100
+		2	0.0110
+		3	0.0120
+		4	0.0130
+		5	0.0140
+		6	0.0150
+		7	0.0160
+		8	0.0170
+	$End
+$End
+$Text
+	Filename	Desulfator_v1.txt
+	Height		0.1000
+	Width		0.1000
+	LineSpace	1.0000
+	CharSpace	1.0000
+	Rotate		0
+	Slant		0
+	Mirror		No
+$End
+$ApReport
+	RepFile	Desulfator_v1.txt
+	Layer		1
+$End
+$Rotate
+	Degrees	0.00
+	Pivot		Center
+$End
+$Mirror
+	Direction	Horz
+	Pivot		Center
+$End
+$DcodeScale
+	Fixed		No
+	Scale		0.1000, 0.1000
+$End
+$Panelize
+	Panel 0 0 1 1 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0 0.0000 0.0000 0.0000 0 0
+$End
+$Spread
+	AutoSpread		No
+	Rows			1
+	Cols			1
+	TabSize		0.0000, 0.0000
+	Layer			0
+	SortType		Col
+$End
+$Analysis
+	$Setup
+		HiliLayer		0
+		IgnoreSelGrp	No
+		WellBehaved		No
+		WindowMode		No
+		MaxErrors		100
+		$Pass
+			Name		"DEFAULT"
+			DrillLayer		0
+			Enabled		Yes
+		$End
+	$End
+	NextErrorId	1
+$End
+$HoleCharts
+$End
+$Snoman
+	RepFile		Desulfator_v1.sno
+	FromLayer		All
+	ToLayer		0
+	DCode		All
+	Pad2Pad		0.0060
+	Pad2Trace		0.0060
+	Offset			-0.0050
+	MinPercent		0.6000
+	MaxPercent		0.8000
+	WindowMode		No
+$End
+$Teardrop
+	RepFile		Desulfator_v1.txt
+	Layer		All
+	DCode		All
+	Pad2Trace		0.0060
+	Trace2Trace		0.0060
+	HostOffsetPercent			0.1500
+	TeeLength		0.5000
+	TeeWidth		0.5000
+	WindowMode		No
+	DeleteExisting		No
+$End
+$Drill
+	OutFile	Desulfator_v1.drl
+	RepFile	Desulfator_v1.txt
+	Layer		1
+	PreDrill	0.250
+	WindowMode	No
+	NextFirstDrillSequence	998
+	NextLastDrillSequence	1000
+$End
+$Mill
+	Tool		3
+	ConvArcs	Yes
+	Compensate	Yes
+	SkipSlots	Yes
+	Mode		Auto
+	PlungeLength	0.1000
+	PlungeAngle	0
+	OverShoot	0.1000
+	DblPath	No
+	Plunge	red
+	Retract	red
+$End
+$FixSS
+	PadLayer	0
+	SilkLayer	0
+	WindowMode	No
+	Spacing	0.0100
+$End
+$PadRemoval
+	WindowMode	No
+	Layer		All
+	DCode		All
+$End
+$Highlights
+	Query		white
+	Select		white
+	DRC		white
+$End
+$EndHeader
+$NCToolTables
+	$NCToolTable
+		"NCdrill-1-2" Both 0.000000 0.000000 0.000000 0 0 0 N
+		T1 Drill Plated 25350 0.000000 0.000000 0.000000 0 0 0 0 5 25350 0 -1 1 0 -1 "0xff" "A"
+		T2 Drill Plated 203f0 0.000000 0.000000 0.000000 0 0 0 0 2 203f0 0 -1 2 0 -1 "0xdf" "B"
+		T3 Drill Plated 1a0b8 0.000000 0.000000 0.000000 0 0 0 0 8 1a0b8 0 -1 3 0 -1 "0xae" "C"
+		T4 Drill Plated 17908 0.000000 0.000000 0.000000 0 0 0 0 22 17908 0 -1 4 0 -1 "0x99ccff" "D"
+		T5 Drill Plated 15b44 0.000000 0.000000 0.000000 0 0 0 0 3 15b44 0 -1 5 0 -1 "0x80ff" "E"
+		T6 Drill Plated 115d0 0.000000 0.000000 0.000000 0 0 0 0 6 115d0 0 -1 6 0 -1 "0x70df" "F"
+		T7 Drill Plated c670 0.000000 0.000000 0.000000 0 0 0 0 3 c670 0 -1 7 0 -1 "0x57ae" "G"
+		T8 Drill Plated 4d83c 0.000000 0.000000 0.000000 0 0 0 0 4 4d83c 0 -1 8 0 -1 "0x99ffff" "H"
+	$End
+$End
+$CustomApertureData
+$End
+$ApertureData
+35
+# Dcode  Shape  Width  Height  Type  Rotation  Mirror  NegDrawMode Properties
+#
+D10 	Round	f80c	f80c	ThruHole	0	N	Transparent	f80c
+D11 	Round	37cf8	37cf8	ThruHole	0	N	Transparent	37cf8
+D12 	Round	25350	25350	ThruHole	0	N	Transparent	25350
+D13 	Round	284ec	284ec	ThruHole	0	N	Transparent	284ec
+D14 	Round	18ce0	18ce0	ThruHole	0	N	Transparent	18ce0
+D15 	Square	25350	25350	ThruHole	0	N	Transparent	25350
+D16 	Round	129a8	129a8	ThruHole	0	N	Transparent	129a8
+D17 	Round	319c0	319c0	ThruHole	0	N	Transparent	319c0
+D18 	Square	221b4	221b4	ThruHole	0	N	Transparent	221b4
+D19 	Round	221b4	221b4	ThruHole	0	N	Transparent	221b4
+D20 	Round	319c	319c	ThruHole	0	N	Transparent	319c
+D21 	Round	7710	7710	ThruHole	0	N	Transparent	7710
+D22 	Round	1f018	1f018	ThruHole	0	N	Transparent	1f018
+D23 	Square	2b884	2b884	ThruHole	0	N	Transparent	2b884
+D24 	Round	2ba80	2ba80	ThruHole	0	N	Transparent	2ba80
+D25 	Round	2c46c	2c46c	ThruHole	0	N	Transparent	2c46c
+D26 	Round	327a4	327a4	ThruHole	0	N	Transparent	327a4
+D27 	Square	2c270	2c270	ThruHole	0	N	Transparent	2c270
+D28 	Round	2ec1c	2ec1c	ThruHole	0	N	Transparent	2ec1c
+D29 	Round	3e030	3e030	ThruHole	0	N	Transparent	3e030
+D30 	Round	59eac	59eac	ThruHole	0	N	Transparent	59eac
+D31 	Round	2b688	2b688	ThruHole	0	N	Transparent	2b688
+D32 	Round	2e824	2e824	ThruHole	0	N	Transparent	2e824
+D33 	Square	319c0	319c0	ThruHole	0	N	Transparent	319c0
+D34 	Square	2e824	2e824	ThruHole	0	N	Transparent	2e824
+D35 	Round	2f608	2f608	ThruHole	0	N	Transparent	2f608
+$End
+$StringTable
+6
+"$$UID"
+"$$UD"
+"$$EXNET_PADSIZE"
+"$$EXNET_LAYER"
+""
+""
+$End
+$PanelData
+$End
+$Blocks
+$End
+$LayerData
+L1
+I0
+N0
+F0
+C" ================== begin FILE IDENTIFICATION RECORD =================="
+C" Layout Name:  Desulfator.brd"
+C" Film Name:    desulfator_v1BOTTOM"
+C" File Format:  Gerber RS274X"
+C" File Origin:  Cadence Allegro 16.3-S018"
+C" Origin Date:  Tue Nov 30 18:08:56 2010"
+C" "
+C" Layer:  VIA CLASS/BOTTOM"
+C" Layer:  PIN/BOTTOM"
+C" Layer:  ETCH/BOTTOM"
+C" "
+C" Offset:    (0.0 0.0)"
+C" Mirror:    No"
+C" Mode:      Positive"
+C" Rotation:  0"
+C" FullContactRelief:  No"
+C" UndefLineWidth:     0.0"
+C" ================== end FILE IDENTIFICATION RECORD ===================="
+A10
+D4
+25 1 0
+22d76 9c602 N
+d6ace 9c602 N
+d6ace 106f94 N
+ad8fc 106f94 N
+96bdc f0274 N
+969e0 efd7e N
+7fdbe f64ae  Y Y
+6f21f e590f N
+7fdbe f64ae  Y Y
+7968e 10d0d0 N
+79b84 10d2cc N
+877c8 11af10 N
+85c01 11cb3d  Y N
+85214 11f18a N
+7fdbe 1344de  Y Y
+70680 143c1c N
+7fdbe 1344de  Y Y
+95112 12f088 N
+9775f 12e69b  Y N
+9938c 12cad4 N
+9c920 130068 N
+d6ace 130068 N
+d6ace 162d02 N
+22d76 162d02 N
+22d76 9c602 N
+9 1 0
+2c24a 7a54c N
+7cd20 7a54c N
+7cd20 2373e N
+45ce24 2373e N
+45ce24 7a54c N
+4a4426 7a54c N
+4a4426 be7b6 N
+2c24a be7b6 N
+2c24a 7a54c N
+8 1 0
+d232 38dd16 N
+d232 11e99a N
+6a27a 11e99a N
+6a27a 132322 N
+7fdbe 1344de  Y Y
+6a27a 13669a N
+6a27a 38dd16 N
+d232 38dd16 N
+24 1 0
+1a983e 292aba N
+1c0b02 292ab9 N
+1c0b02 29527b  Y N
+1c2028 297426 N
+1d2749 2b1b02  Y Y
+1bd6e9 2c8a4b N
+1d2749 2b1b02  Y Y
+1ee396 2bfc0c N
+1f068f 2c0e67  Y N
+1f2a08 2bfd0a N
+2106fb 2b1ad2  Y Y
+22d4a4 2c1ace N
+22f75e 2c2e73  Y N
+231a18 2c1ace N
+24e7a3 2b1ad7  Y Y
+2643ee 2ca75e N
+24e7a3 2b1ad7  Y Y
+2620fe 29722a N
+2638b9 295263  Y N
+2638ce 292aba N
+317626 292aba N
+317626 2f8fd6 N
+1a983e 2f8fd6 N
+1a983e 292aba N
+12 1 0
+1e43d8 292aba N
+1fb603 292aba N
+1fb603 295263  Y N
+1fcdbe 29722a N
+2106dc 2b1b3d  Y Y
+1f2a08 2a389a N
+1f068f 2a273d  Y N
+1ee396 2a3998 N
+1d27c8 2b1b84  Y Y
+1e2e04 297426 N
+1e4328 29527a  Y N
+1e43d8 292aba N
+16 1 0
+1d4ec6 447da6 N
+28abde 447da6 N
+2b2fcc 470194 N
+2b31c8 47068a N
+2c9dea 469f5a  Y Y
+2da989 47aaf9 N
+2c9dea 469f5a  Y Y
+2d051a 453338 N
+2d0024 45313c N
+2c9006 44c11e N
+2cac64 44a558  Y N
+2caccc 447da6 N
+39fcf6 447da6 N
+39fcf6 49b91a N
+1d4ec6 49b91a N
+1d4ec6 447da6 N
+18 1 0
+304c7e 12cecc N
+304c7e b2146 N
+4a128a b2146 N
+4a128a 39a386 N
+36e630 39a386 N
+364e62 3afeca  Y Y
+35b694 39a386 N
+304c7e 39a386 N
+304c7e 198b38 N
+305a62 198740 N
+2fe946 181d1a  Y Y
+305a62 16b2f4 N
+304c7e 16aefc N
+304c7e 15ab08 N
+305a62 15a710 N
+2fe946 143cea  Y Y
+305a62 12d2c4 N
+304c7e 12cecc N
+7 1 0
+3999be 384842 N
+4a4426 384842 N
+4a4426 45a650 N
+45ce24 45a650 N
+45ce24 4a7f8a N
+3999be 4a7f8a N
+3999be 384842 N
+A23
+D1
+F128
+19d1ce 48a8e
+20fd5a 469f5a
+A24
+11dfd2 9f79e
+364e62 371e9a
+A27
+33663e 305646
+A25
+33663e 226266
+3f9ba2 42bf2a
+A26
+33663e 1cf556
+A28
+42e6fe 1cf556
+A10
+F0
+3ebf2 3c41e
+3ebf2 49877e
+49af52 3c41e
+49af52 49877e
+A11
+3ebf2 371e9a
+5159a 42bf2a
+24e776 2b1ad2
+210746 2b1ad2
+1d2716 2b1ad2
+A21
+D2
+68da4 1344de 7fdbe 1344de
+6929a 12a81a 7fdbe 1344de
+7fdbe 11d4c4 7fdbe 1344de
+7fdbe 1344de 7fdbe 14b4f8
+7fdbe 1344de 96dd8 1344de
+11dfd2 88784 11dfd2 9f79e
+11dfd2 9f79e 11dfd2 b67b8
+106fb8 9f79e 11dfd2 9f79e
+11dfd2 9f79e 134fec 9f79e
+19d1ce 31a74 19d1ce 48a8e
+19d1ce 48a8e 19d1ce 5faa8
+1861b4 48a8e 19d1ce 48a8e
+19d1ce 48a8e 1b41e8 48a8e
+1d2716 2b1ad2 1d2716 2d1fc0
+1b2228 2b1ad2 1d2716 2b1ad2
+20fd5a 452f40 20fd5a 469f5a
+20fd5a 469f5a 20fd5a 480f74
+1f8d40 469f5a 20fd5a 469f5a
+20fd5a 469f5a 226d74 469f5a
+364e62 35ae80 364e62 371e9a
+364e62 371e9a 364e62 388eb4
+34de48 371e9a 364e62 371e9a
+364e62 371e9a 37be7c 371e9a
+42e6fe 1b6c6e 42e6fe 1cf556
+42e6fe 1cf556 42e6fe 1e7e3e
+415e16 1cf556 42e6fe 1cf556
+42e6fe 1cf556 446fe6 1cf556
+A12
+D1
+7fdbe 1344de
+7fdbe f64ae
+11dfd2 9f79e
+11dfd2 dd7ce
+19d1ce 13a816
+193cfa 3edefa
+193cfa 3afeca
+1fd3b2 1ad3a2
+1fd3b2 1eb3d2
+26cda2 36268e
+24dd8a 343676
+20fd5a 3afeca
+20fd5a 3edefa
+20fd5a 42bf2a
+2fe946 143cea
+2fe946 181d1a
+28bdba 343676
+2c9dea 3afeca
+2c9dea 3edefa
+2c9dea 42bf2a
+2c9dea 469f5a
+364e62 371e9a
+364e62 3afeca
+A22
+D2
+7fdbe f64ae a510e 11b7fe
+a510e 11b7fe 117c9a 11b7fe
+117c9a 11b7fe 1a983e 1ad3a2
+888a6 3024aa 879c4 30338c
+879c4 30338c 879c4 3f5b00
+879c4 3f5b00 5159a 42bf2a
+155cca 1b36da 193cfa 1f170a
+193cfa 1f170a 193cfa 37b36e
+24dd8a 343676 222702 343676
+222702 343676 1d4ec6 2f5e3a
+2c9dea 42bf2a 1e46d2 346812
+2c9dea 469f5a 20fd5a 3afeca
+A13
+D1
+e9476 188052
+e9476 280112
+e9476 343676
+e9476 43b736
+155cca 1b36da
+155cca 2ab79a
+33663e 1cf556
+42e6fe 1cf556
+A14
+888a6 28644a
+888a6 3024aa
+A15
+19d1ce 48a8e
+20fd5a 469f5a
+A16
+1a983e 1ad3a2
+193cfa 37b36e
+1e46d2 346812
+A17
+28bdba 143cea
+28bdba 23bdaa
+A18
+31a7c2 42bf2a
+33663e 305646
+A19
+33663e 226266
+3f9ba2 42bf2a
+L2
+I0
+N0
+F0
+C" ================== begin FILE IDENTIFICATION RECORD =================="
+C" Layout Name:  Desulfator.brd"
+C" Film Name:    desulfator_v1MECH"
+C" File Format:  Gerber RS274X"
+C" File Origin:  Cadence Allegro 16.3-S018"
+C" Origin Date:  Tue Nov 30 18:08:56 2010"
+C" "
+C" Layer:  BOARD GEOMETRY/DIMENSION"
+C" Layer:  BOARD GEOMETRY/CUT_MARKS"
+C" "
+C" Offset:    (0.0 0.0)"
+C" Mirror:    No"
+C" Mode:      Positive"
+C" Rotation:  0"
+C" FullContactRelief:  No"
+C" UndefLineWidth:     0.0"
+C" ================== end FILE IDENTIFICATION RECORD ===================="
+A29
+D2
+fffe1baa fffdf3d6 5dc0a fffdf3d6
+fffe1baa 5b436 fffe1baa fffdf3d6
+5dc0a 4f57c6 fffe1baa 4f57c6
+fffe1baa 4f57c6 fffe1baa 479766
+47bf3a fffdf3d6 4f7f9a fffdf3d6
+4f7f9a 4f57c6 47bf3a 4f57c6
+4f7f9a fffdf3d6 4f7f9a 5b436
+4f7f9a 479766 4f7f9a 4f57c6
+L3
+I0
+N0
+F0
+C" ================== begin FILE IDENTIFICATION RECORD =================="
+C" Layout Name:  Desulfator.brd"
+C" Film Name:    desulfator_v1SMB"
+C" File Format:  Gerber RS274X"
+C" File Origin:  Cadence Allegro 16.3-S018"
+C" Origin Date:  Tue Nov 30 18:08:56 2010"
+C" "
+C" Layer:  VIA CLASS/SOLDERMASK_BOTTOM"
+C" Layer:  PIN/SOLDERMASK_BOTTOM"
+C" Layer:  BOARD GEOMETRY/SOLDERMASK_BOTTOM"
+C" "
+C" Offset:    (0.0 0.0)"
+C" Mirror:    No"
+C" Mode:      Positive"
+C" Rotation:  0"
+C" FullContactRelief:  No"
+C" UndefLineWidth:     0.0"
+C" ================== end FILE IDENTIFICATION RECORD ===================="
+A30
+D1
+3ebf2 3c41e
+3ebf2 49877e
+49af52 3c41e
+49af52 49877e
+A32
+7fdbe 1344de
+7fdbe f64ae
+11dfd2 9f79e
+11dfd2 dd7ce
+19d1ce 13a816
+193cfa 3edefa
+193cfa 3afeca
+1fd3b2 1ad3a2
+1fd3b2 1eb3d2
+20fd5a 3afeca
+20fd5a 3edefa
+20fd5a 42bf2a
+2fe946 143cea
+2fe946 181d1a
+2c9dea 3afeca
+2c9dea 3edefa
+2c9dea 42bf2a
+2c9dea 469f5a
+364e62 371e9a
+364e62 3afeca
+A17
+e9476 188052
+e9476 280112
+e9476 343676
+e9476 43b736
+155cca 1b36da
+155cca 2ab79a
+33663e 226266
+33663e 1cf556
+42e6fe 1cf556
+3f9ba2 42bf2a
+A22
+888a6 28644a
+888a6 3024aa
+A34
+19d1ce 48a8e
+20fd5a 469f5a
+A31
+26cda2 36268e
+24dd8a 343676
+28bdba 343676
+A29
+28bdba 143cea
+28bdba 23bdaa
+A33
+31a7c2 42bf2a
+33663e 305646
+L4
+I0
+N0
+F0
+C" ================== begin FILE IDENTIFICATION RECORD =================="
+C" Layout Name:  Desulfator.brd"
+C" Film Name:    desulfator_v1SMT"
+C" File Format:  Gerber RS274X"
+C" File Origin:  Cadence Allegro 16.3-S018"
+C" Origin Date:  Tue Nov 30 18:08:56 2010"
+C" "
+C" Layer:  VIA CLASS/SOLDERMASK_TOP"
+C" Layer:  PIN/SOLDERMASK_TOP"
+C" Layer:  BOARD GEOMETRY/SOLDERMASK_TOP"
+C" "
+C" Offset:    (0.0 0.0)"
+C" Mirror:    No"
+C" Mode:      Positive"
+C" Rotation:  0"
+C" FullContactRelief:  No"
+C" UndefLineWidth:     0.0"
+C" ================== end FILE IDENTIFICATION RECORD ===================="
+A30
+D1
+3ebf2 3c41e
+3ebf2 49877e
+49af52 3c41e
+49af52 49877e
+A29
+3ebf2 371e9a
+5159a 42bf2a
+24e776 2b1ad2
+210746 2b1ad2
+1d2716 2b1ad2
+28bdba 143cea
+28bdba 23bdaa
+A32
+7fdbe 1344de
+7fdbe f64ae
+11dfd2 9f79e
+11dfd2 dd7ce
+19d1ce 13a816
+193cfa 3edefa
+193cfa 3afeca
+1fd3b2 1ad3a2
+1fd3b2 1eb3d2
+20fd5a 3afeca
+20fd5a 3edefa
+20fd5a 42bf2a
+2fe946 143cea
+2fe946 181d1a
+2c9dea 3afeca
+2c9dea 3edefa
+2c9dea 42bf2a
+2c9dea 469f5a
+364e62 371e9a
+364e62 3afeca
+A17
+e9476 188052
+e9476 280112
+e9476 343676
+e9476 43b736
+155cca 1b36da
+155cca 2ab79a
+33663e 226266
+33663e 1cf556
+42e6fe 1cf556
+3f9ba2 42bf2a
+A22
+888a6 28644a
+888a6 3024aa
+1a983e 1ad3a2
+193cfa 37b36e
+1e46d2 346812
+A34
+19d1ce 48a8e
+20fd5a 469f5a
+A31
+26cda2 36268e
+24dd8a 343676
+28bdba 343676
+A33
+31a7c2 42bf2a
+33663e 305646
+L6
+I0
+N0
+F0
+C" ================== begin FILE IDENTIFICATION RECORD =================="
+C" Layout Name:  Desulfator.brd"
+C" Film Name:    desulfator_v1SST"
+C" File Format:  Gerber RS274X"
+C" File Origin:  Cadence Allegro 16.3-S018"
+C" Origin Date:  Tue Nov 30 18:08:56 2010"
+C" "
+C" Layer:  REF DES/SILKSCREEN_TOP"
+C" Layer:  PACKAGE GEOMETRY/SILKSCREEN_TOP"
+C" Layer:  BOARD GEOMETRY/SILKSCREEN_TOP"
+C" "
+C" Offset:    (0.0 0.0)"
+C" Mirror:    No"
+C" Mode:      Positive"
+C" Rotation:  0"
+C" FullContactRelief:  No"
+C" UndefLineWidth:     0.0"
+C" ================== end FILE IDENTIFICATION RECORD ===================="
+A20
+D2
+93942 1a0d32 93942 1bfd4a
+93942 1bfd4a 9d704 1bfd4a
+9d704 1bfd4a a08a0 1be47c
+a08a0 1be47c a2860 1bc3be
+a2860 1bc3be a3546 1b8144
+a3546 1b8144 a2860 1b3eca
+a2860 1b3eca a02ac 1b161c
+a02ac 1b161c 9d704 1afd4e
+9d704 1afd4e 93942 1afd4e
+9d704 1afd4e a3546 1a0d32
+bb148 1a0d32 bb148 1bfd4a
+bb148 1bfd4a b65e0 1b9a12
+b65e0 1a0d32 bfcb0 1a0d32
+17c1f6 24b5b6 17c1f6 26a5ce
+17c1f6 26a5ce 185fb8 26a5ce
+185fb8 26a5ce 189154 268d00
+189154 268d00 18b114 266c42
+18b114 266c42 18bdfa 2629c8
+18bdfa 2629c8 18b114 25e74e
+18b114 25e74e 188b60 25bea0
+188b60 25bea0 185fb8 25a5d2
+185fb8 25a5d2 17c1f6 25a5d2
+185fb8 25a5d2 18bdfa 24b5b6
+19c2ec 265374 19e8a0 268510
+19e8a0 268510 1a1448 269dde
+1a1448 269dde 1a46e2 26a5ce
+1a46e2 26a5ce 1a8564 2694f0
+1a8564 2694f0 1ab10c 266c42
+1ab10c 266c42 1abdf2 263aa6
+1abdf2 263aa6 1ab7fe 26090a
+1ab7fe 26090a 1a9e32 25df5e
+1a9e32 25df5e 1a212e 258d04
+1a212e 258d04 19e8a0 25527a
+19e8a0 25527a 19c2ec 250020
+19c2ec 250020 19b606 24b5b6
+19b606 24b5b6 1abdf2 24b5b6
+10470a 3db552 10470a 3fa56a
+10470a 3fa56a 10e4cc 3fa56a
+10e4cc 3fa56a 111668 3f8c9c
+111668 3f8c9c 113628 3f6bde
+113628 3f6bde 11430e 3f2964
+11430e 3f2964 113628 3ee6ea
+113628 3ee6ea 111074 3ebe3c
+111074 3ebe3c 10e4cc 3ea56e
+10e4cc 3ea56e 10470a 3ea56e
+10e4cc 3ea56e 11430e 3db552
+123526 3e188a 125ada 3ddefe
+125ada 3ddefe 128c76 3dbd42
+128c76 3dbd42 12c504 3db552
+12c504 3db552 12f79e 3dbd42
+12f79e 3dbd42 132a38 3de6ee
+132a38 3de6ee 1348fa 3e188a
+1348fa 3e188a 134fec 3e4a26
+134fec 3e4a26 134306 3e83b2
+134306 3e83b2 13175e 3ead5e
+13175e 3ead5e 12eab8 3ebe3c
+12eab8 3ebe3c 12b22a 3ebe3c
+12eab8 3ebe3c 13106c 3ed70a
+13106c 3ed70a 13302c 3effb8
+13302c 3effb8 133d12 3f3154
+133d12 3f3154 13302c 3f62f0
+13302c 3f62f0 13106c 3f8c9c
+13106c 3f8c9c 12d7de 3fa56a
+12d7de 3fa56a 129f50 3f9d7a
+129f50 3f9d7a 1266c2 3f7bbe
+222800 7a44e 222800 99466
+222800 99466 22a504 99466
+22a504 99466 22d79e 97b98
+22d79e 97b98 22fd52 95ada
+22fd52 95ada 231d12 9293e
+231d12 9293e 2335e0 8eeb4
+2335e0 8eeb4 233bd4 89c5a
+233bd4 89c5a 2335e0 84a00
+2335e0 84a00 231d12 80f76
+231d12 80f76 22fd52 7ddda
+22fd52 7ddda 22d79e 7bd1c
+22d79e 7bd1c 22a504 7a44e
+22a504 7a44e 222800 7a44e
+244dac 8838c 251716 8838c
+251716 8838c 25043c 8bd18
+25043c 8bd18 24e47c 8ded4
+24e47c 8ded4 24b8d4 8eeb4
+24b8d4 8eeb4 248c2e 8e6c4
+248c2e 8e6c4 24667a 8cdf6
+24667a 8cdf6 244dac 8946a
+244dac 8946a 2440c6 862ce
+2440c6 862ce 2440c6 83132
+2440c6 83132 244dac 7ff96
+244dac 7ff96 246d6c 7cdfa
+246d6c 7cdfa 249320 7ac3e
+249320 7ac3e 24bec8 7a44e
+24bec8 7a44e 24ea70 7b52c
+24ea70 7b52c 251716 7e6c8
+2647b0 7ddda 266770 7bd1c
+266770 7bd1c 269318 7a44e
+269318 7a44e 26b8cc 7a44e
+26b8cc 7a44e 26de80 7b52c
+26de80 7b52c 26f74e 7cdfa
+26f74e 7cdfa 270434 7eeb8
+270434 7eeb8 26fe40 82054
+26fe40 82054 26e474 83922
+26e474 83922 267358 86abe
+267358 86abe 265a8a 8a44a
+265a8a 8a44a 266770 8cdf6
+266770 8cdf6 26803e 8e6c4
+26803e 8e6c4 26a5f2 8eeb4
+26a5f2 8eeb4 26cba6 8e6c4
+26cba6 8e6c4 26f15a 8cdf6
+2834ce 8eeb4 2834ce 80786
+2834ce 80786 284e9a 7cdfa
+284e9a 7cdfa 28744e 7ac3e
+28744e 7ac3e 289ff6 7a44e
+289ff6 7a44e 28cb9e 7ac3e
+28cb9e 7ac3e 28f152 7cdfa
+28f152 7cdfa 290b1e 80786
+290b1e 7a44e 290b1e 8eeb4
+2a99fa 7a44e 2a99fa 99466
+2c6e4a 7a44e 2c6e4a 949fc
+2c6e4a 949fc 2c7b30 973a8
+2c7b30 973a8 2c93fe 98c76
+2c93fe 98c76 2cb9b2 99466
+2cb9b2 99466 2cdf66 98388
+2cdf66 98388 2cf240 95ada
+2ca6d8 8cdf6 2c28d6 8cdf6
+2eff1e 7a44e 2eff1e 8eeb4
+2eff1e 8b528 2ee650 8d5e6
+2ee650 8d5e6 2ec09c 8e6c4
+2ec09c 8e6c4 2e93f6 8eeb4
+2e93f6 8eeb4 2e684e 8ded4
+2e684e 8ded4 2e429a 8bd18
+2e429a 8bd18 2e29cc 88b7c
+2e29cc 88b7c 2e1ce6 84a00
+2e1ce6 84a00 2e29cc 80786
+2e29cc 80786 2e429a 7d5ea
+2e429a 7d5ea 2e684e 7b52c
+2e684e 7b52c 2e93f6 7a44e
+2e93f6 7a44e 2ec09c 7ac3e
+2ec09c 7ac3e 2ee650 7c50c
+2ee650 7c50c 2eff1e 7e6c8
+308806 99466 308806 7a44e
+302fb8 8eeb4 30e054 8eeb4
+32820a 7a44e 325c56 7ac3e
+325c56 7ac3e 3236a2 7cdfa
+3236a2 7cdfa 321dd4 80786
+321dd4 80786 3210ee 84a00
+3210ee 84a00 321dd4 88b7c
+321dd4 88b7c 3236a2 8c606
+3236a2 8c606 325c56 8e6c4
+325c56 8e6c4 32820a 8eeb4
+32820a 8eeb4 32a7be 8e6c4
+32a7be 8e6c4 32cd72 8c606
+32cd72 8c606 32e640 88b7c
+32e640 88b7c 32ed32 84a00
+32ed32 84a00 32e640 80786
+32e640 80786 32cd72 7cdfa
+32cd72 7cdfa 32a7be 7ac3e
+32a7be 7ac3e 32820a 7a44e
+3423c0 7a44e 3423c0 8eeb4
+3423c0 8ad38 344380 8cdf6
+344380 8cdf6 346340 8e6c4
+346340 8e6c4 348ee8 8eeb4
+348ee8 8eeb4 34aea8 8e6c4
+34aea8 8e6c4 34d45c 8cdf6
+37fefa 8eeb4 387016 7a44e
+387016 7a44e 38e132 8eeb4
+3a6a1a 7a44e 3a6a1a 99466
+3a6a1a 99466 3a1eb2 9312e
+3a1eb2 7a44e 3ab582 7a44e
+3c641e 79370 3c5738 79c5e
+3c5738 79c5e 3c5738 7ac3e
+3c5738 7ac3e 3c641e 7b52c
+3c641e 7b52c 3c7104 7ac3e
+3c7104 7ac3e 3c7104 79c5e
+3c7104 79c5e 3c641e 79370
+3e5e22 99466 3e2b88 98388
+3e2b88 98388 3e05d4 95ada
+3e05d4 95ada 3ded06 9293e
+3ded06 9293e 3dda2c 8e6c4
+3dda2c 8e6c4 3dd438 89c5a
+3dd438 89c5a 3dda2c 851f0
+3dda2c 851f0 3ded06 80f76
+3ded06 80f76 3e05d4 7ddda
+3e05d4 7ddda 3e2b88 7b52c
+3e2b88 7b52c 3e5e22 7a44e
+3e5e22 7a44e 3e90bc 7b52c
+3e90bc 7b52c 3eb670 7ddda
+3eb670 7ddda 3ecf3e 80f76
+3ecf3e 80f76 3ee218 851f0
+3ee218 851f0 3ee80c 89c5a
+3ee80c 89c5a 3ee218 8e6c4
+3ee218 8e6c4 3ecf3e 9293e
+3ecf3e 9293e 3eb670 95ada
+3eb670 95ada 3e90bc 98388
+3e90bc 98388 3e5e22 99466
+232bf4 4bc2a 232bf4 6ac42
+232bf4 6ac42 23c2c4 6ac42
+23c2c4 6ac42 23f55e 69374
+23f55e 69374 241b12 659e8
+241b12 659e8 2427f8 6176e
+2427f8 6176e 241b12 5d4f4
+241b12 5d4f4 23fb52 5a358
+23fb52 5a358 23c2c4 58a8a
+23c2c4 58a8a 232bf4 58a8a
+261516 4bc2a 261516 60690
+261516 5cd04 25fc48 5edc2
+25fc48 5edc2 25d694 5fea0
+25d694 5fea0 25a9ee 60690
+25a9ee 60690 257e46 5f6b0
+257e46 5f6b0 255892 5d4f4
+255892 5d4f4 253fc4 5a358
+253fc4 5a358 2532de 561dc
+2532de 561dc 253fc4 51f62
+253fc4 51f62 255892 4edc6
+255892 4edc6 257e46 4cd08
+257e46 4cd08 25a9ee 4bc2a
+25a9ee 4bc2a 25d694 4c41a
+25d694 4c41a 25fc48 4dce8
+25fc48 4dce8 261516 4fea4
+279dfe 6ac42 279dfe 4bc2a
+2745b0 60690 27f64c 60690
+293fb4 4bc2a 293fb4 60690
+293fb4 5c514 295f74 5e5d2
+295f74 5e5d2 297f34 5fea0
+297f34 5fea0 29aadc 60690
+29aadc 60690 29ca9c 5fea0
+29ca9c 5fea0 29f050 5e5d2
+2b9206 60690 2b9206 4bc2a
+2b9206 68b84 2b8520 69374
+2b8520 69374 2b8520 6a452
+2b8520 6a452 2b9206 6ac42
+2b9206 6ac42 2b9eec 6a452
+2b9eec 6a452 2b9eec 69374
+2b9eec 69374 2b9206 68b84
+2df040 5dde2 2dc498 5fea0
+2dc498 5fea0 2d9ee4 60690
+2d9ee4 60690 2d6c4a 5f6b0
+2d6c4a 5f6b0 2d4696 5d4f4
+2d4696 5d4f4 2d2dc8 59b68
+2d2dc8 59b68 2d27d4 561dc
+2d27d4 561dc 2d2dc8 52752
+2d2dc8 52752 2d4696 4f5b6
+2d4696 4f5b6 2d6c4a 4cd08
+2d6c4a 4cd08 2d9ee4 4bc2a
+2d9ee4 4bc2a 2dca8c 4cd08
+2dca8c 4cd08 2df040 4edc6
+2f1ae6 4bc2a 2f1ae6 6ac42
+2fe450 60690 2f1ae6 5490e
+2f6d40 59378 2ff136 4bc2a
+32f620 4fea4 3328ba 4d4f8
+3328ba 4d4f8 336148 4bc2a
+336148 4bc2a 3392e4 4bc2a
+3392e4 4bc2a 33c57e 4d4f8
+33c57e 4d4f8 33eb32 4fea4
+33eb32 4fea4 33fe0c 53830
+33fe0c 53830 33f126 571bc
+33f126 571bc 33d264 5a358
+33d264 5a358 3399d6 5c514
+3399d6 5c514 334e6e 5d4f4
+334e6e 5d4f4 3321c8 5f6b0
+3321c8 5f6b0 330eee 6303c
+330eee 6303c 331bd4 669c8
+331bd4 669c8 333b94 69374
+333b94 69374 33673c 6ac42
+33673c 6ac42 3392e4 6ac42
+3392e4 6ac42 33bf8a 69b64
+33bf8a 69b64 33e53e 672b6
+3508f2 4bc2a 3508f2 6ac42
+3508f2 5bc26 3528b2 5e5d2
+3528b2 5e5d2 354872 5fea0
+354872 5fea0 357a0e 60690
+357a0e 60690 359fc2 5fea0
+359fc2 5fea0 35cc68 5dde2
+35cc68 5dde2 35df42 5ac46
+35df42 5ac46 35df42 4bc2a
+36ea28 42756 370fdc 41678
+370fdc 41678 374276 42756
+374276 42756 376138 44814
+376138 44814 377b04 471c0
+377b04 471c0 37a0b8 4f5b6
+37a0b8 4f5b6 37f214 60690
+3728aa 60690 37a0b8 4f5b6
+38f706 60690 396822 4bc2a
+396822 4bc2a 39d93e 60690
+3b03e4 59b68 3bcd4e 59b68
+3bcd4e 59b68 3bba74 5d4f4
+3bba74 5d4f4 3b9ab4 5f6b0
+3b9ab4 5f6b0 3b6f0c 60690
+3b6f0c 60690 3b4266 5fea0
+3b4266 5fea0 3b1cb2 5e5d2
+3b1cb2 5e5d2 3b03e4 5ac46
+3b03e4 5ac46 3af6fe 57aaa
+3af6fe 57aaa 3af6fe 5490e
+3af6fe 5490e 3b03e4 51772
+3b03e4 51772 3b23a4 4e5d6
+3b23a4 4e5d6 3b4958 4c41a
+3b4958 4c41a 3b7500 4bc2a
+3b7500 4bc2a 3ba0a8 4cd08
+3ba0a8 4cd08 3bcd4e 4fea4
+3d03dc 4bc2a 3d03dc 60690
+3d03dc 5c514 3d239c 5e5d2
+3d239c 5e5d2 3d435c 5fea0
+3d435c 5fea0 3d6f04 60690
+3d6f04 60690 3d8ec4 5fea0
+3d8ec4 5fea0 3db478 5e5d2
+3ef7ec 4f5b6 3f17ac 4d4f8
+3f17ac 4d4f8 3f4354 4bc2a
+3f4354 4bc2a 3f6908 4bc2a
+3f6908 4bc2a 3f8ebc 4cd08
+3f8ebc 4cd08 3fa78a 4e5d6
+3fa78a 4e5d6 3fb470 50694
+3fb470 50694 3fae7c 53830
+3fae7c 53830 3f94b0 550fe
+3f94b0 550fe 3f2394 5829a
+3f2394 5829a 3f0ac6 5bc26
+3f0ac6 5bc26 3f17ac 5e5d2
+3f17ac 5e5d2 3f307a 5fea0
+3f307a 5fea0 3f562e 60690
+3f562e 60690 3f7be2 5fea0
+3f7be2 5fea0 3fa196 5e5d2
+1e47d0 d7496 1e47d0 f64ae
+1e47d0 f64ae 1ec4d4 f64ae
+1ec4d4 f64ae 1ef76e f4be0
+1ef76e f4be0 1f1d22 f2b22
+1f1d22 f2b22 1f3ce2 ef986
+1f3ce2 ef986 1f55b0 ebefc
+1f55b0 ebefc 1f5ba4 e6ca2
+1f5ba4 e6ca2 1f55b0 e1a48
+1f55b0 e1a48 1f3ce2 ddfbe
+1f3ce2 ddfbe 1f1d22 dae22
+1f1d22 dae22 1ef76e d8d64
+1ef76e d8d64 1ec4d4 d7496
+1ec4d4 d7496 1e47d0 d7496
+20cbbe d7496 20cbbe f64ae
+20cbbe f64ae 208056 f0176
+208056 d7496 211726 d7496
+3b9bb2 20d586 3b9bb2 22c59e
+3b9bb2 22c59e 3c3974 22c59e
+3c3974 22c59e 3c6b10 22acd0
+3c6b10 22acd0 3c8ad0 228c12
+3c8ad0 228c12 3c97b6 224998
+3c97b6 224998 3c8ad0 22071e
+3c8ad0 22071e 3c651c 21de70
+3c651c 21de70 3c3974 21c5a2
+3c3974 21c5a2 3b9bb2 21c5a2
+3c3974 21c5a2 3c97b6 20d586
+3e5f20 20d586 3e5f20 22c59e
+3e5f20 22c59e 3d76f4 21626a
+3d76f4 21626a 3eb07c 21626a
+3680fc 2b7e0a 3680fc 2d6e22
+3680fc 2d6e22 36fe00 2d6e22
+36fe00 2d6e22 37309a 2d5554
+37309a 2d5554 37564e 2d3496
+37564e 2d3496 37760e 2d02fa
+37760e 2d02fa 378edc 2cc870
+378edc 2cc870 3794d0 2c7616
+3794d0 2c7616 378edc 2c23bc
+378edc 2c23bc 37760e 2be932
+37760e 2be932 37564e 2bb796
+37564e 2bb796 37309a 2b96d8
+37309a 2b96d8 36fe00 2b7e0a
+36fe00 2b7e0a 3680fc 2b7e0a
+395052 2b7e0a 395052 2d6e22
+395052 2d6e22 386826 2c0aee
+386826 2c0aee 39a1ae 2c0aee
+3d9baa 375826 3d75f6 3770f4
+3d75f6 3770f4 3d4a4e 3781d2
+3d4a4e 3781d2 3d17b4 3781d2
+3d17b4 3781d2 3cdf26 376904
+3cdf26 376904 3cb37e 373f58
+3cb37e 373f58 3c93be 370dbc
+3c93be 370dbc 3c7af0 36bb62
+3c7af0 36bb62 3c74fc 3670f8
+3c74fc 3670f8 3c80e4 36268e
+3c80e4 36268e 3c93be 35f4f2
+3c93be 35f4f2 3cb972 35c356
+3cb972 35c356 3ce618 35a298
+3ce618 35a298 3d11c0 3591ba
+3d11c0 3591ba 3d3d68 3591ba
+3d3d68 3591ba 3d6a0e 35a298
+3d6a0e 35a298 3d8fc2 35bb66
+3d8fc2 35bb66 3dae84 35dc24
+3f572c 3591ba 3f572c 3781d2
+3f572c 3781d2 3e6f00 361e9e
+3e6f00 361e9e 3fa888 361e9e
+3c5144 45a74e 3c5144 479766
+3c5144 479766 3cce48 479766
+3cce48 479766 3d00e2 477e98
+3d00e2 477e98 3d2696 475dda
+3d2696 475dda 3d4656 472c3e
+3d4656 472c3e 3d5f24 46f1b4
+3d5f24 46f1b4 3d6518 469f5a
+3d6518 469f5a 3d5f24 464d00
+3d5f24 464d00 3d4656 461276
+3d4656 461276 3d2696 45e0da
+3d2696 45e0da 3d00e2 45c01c
+3d00e2 45c01c 3cce48 45a74e
+3cce48 45a74e 3c5144 45a74e
+3e4b48 460a86 3e70fc 45d0fa
+3e70fc 45d0fa 3ea298 45af3e
+3ea298 45af3e 3edb26 45a74e
+3edb26 45a74e 3f0dc0 45af3e
+3f0dc0 45af3e 3f405a 45d8ea
+3f405a 45d8ea 3f5f1c 460a86
+3f5f1c 460a86 3f660e 463c22
+3f660e 463c22 3f5928 4675ae
+3f5928 4675ae 3f2d80 469f5a
+3f2d80 469f5a 3f00da 46b038
+3f00da 46b038 3ec84c 46b038
+3f00da 46b038 3f268e 46c906
+3f268e 46c906 3f464e 46f1b4
+3f464e 46f1b4 3f5334 472350
+3f5334 472350 3f464e 4754ec
+3f464e 4754ec 3f268e 477e98
+3f268e 477e98 3eee00 479766
+3eee00 479766 3eb572 478f76
+3eb572 478f76 3e7ce4 476dba
+L7
+I0
+N0
+F0
+C" ================== begin FILE IDENTIFICATION RECORD =================="
+C" Layout Name:  Desulfator.brd"
+C" Film Name:    desulfator_v1TOP"
+C" File Format:  Gerber RS274X"
+C" File Origin:  Cadence Allegro 16.3-S018"
+C" Origin Date:  Tue Nov 30 18:08:56 2010"
+C" "
+C" Layer:  VIA CLASS/TOP"
+C" Layer:  PIN/TOP"
+C" Layer:  ETCH/TOP"
+C" "
+C" Offset:    (0.0 0.0)"
+C" Mirror:    No"
+C" Mode:      Positive"
+C" Rotation:  0"
+C" FullContactRelief:  No"
+C" UndefLineWidth:     0.0"
+C" ================== end FILE IDENTIFICATION RECORD ===================="
+A10
+D4
+7 1 0
+25f12 7a54c N
+7cd20 7a54c N
+7cd20 1d406 N
+323c96 1d406 N
+323c96 c4aee N
+25f12 c4aee N
+25f12 7a54c N
+5 1 0
+1fbda 38ab7a N
+1fbda bb61a N
+63f42 bb61a N
+63f42 38ab7a N
+1fbda 38ab7a N
+7 1 0
+22d76 39d522 N
+ae5e2 39d522 N
+ae5e2 45a74e N
+7cd20 45a74e N
+7cd20 45a650 N
+22d76 45a650 N
+22d76 39d522 N
+5 1 0
+3ebf2 165e9e N
+3ebf2 aefaa N
+a82aa aefaa N
+a82aa 165e9e N
+3ebf2 165e9e N
+5 1 0
+1cb9f2 492446 N
+1cb9f2 444c0a N
+2a18fe 444c0a N
+2a18fe 492446 N
+1cb9f2 492446 N
+48 1 0
+2fb7a9 23e0cc N
+2fb7aa 1a1f0e N
+304b80 198b38 N
+305076 19893c N
+2fe8a9 181cdc  Y Y
+2fdf43 16a21a N
+2fdf43 167a81  Y N
+2fb7aa 167a66 N
+2fb7aa 15df83 N
+2fdf43 15df83  Y N
+2fe058 15b7ee N
+2fe946 143ce9  Y Y
+316466 143c5e N
+2fe945 143ce9  Y Y
+2fdf43 12c1ea N
+2fdf43 129a51  Y N
+2fb7aa 129a36 N
+2fb7aa 268da N
+45ce24 268da N
+45ce24 7a54c N
+4a4426 7a54c N
+4a4426 39404e N
+2fb7aa 39404e N
+2fb7aa 35405e N
+2fb8a8 353f60 N
+2fb8a8 319fae N
+300cfe 319fae N
+300dfc 319eb0 N
+320506 319eb0 N
+320506 31b77e N
+34c776 31b77e N
+34c776 2ef50e N
+320506 2ef50e N
+320506 2f0ddc N
+2fb7aa 2f0ddc N
+2fb7aa 27e152 N
+33f126 23a8d4 N
+336643 2262c1  Y Y
+34aea8 21dd72 N
+34aea8 1de07c N
+33663e 1cf556  Y Y
+33663e 1b616b N
+33663e 1cf556  Y Y
+321dd4 1de07c N
+321dd4 21da78 N
+2ffb22 23fd2a N
+2fdf5c 23e0cc  Y N
+2fb7a9 23e0cc N
+12 1 0
+29e762 441a6e N
+2c061c 441a6e N
+2c9dea 42bf2a  Y Y
+2d35b8 441a6e N
+30468a 441a6e N
+30468a 442062 N
+3308fa 442062 N
+3308fa 441a6e N
+37db42 441a6e N
+37db42 4955e2 N
+29e762 4955e2 N
+29e762 441a6e N
+19 1 0
+37a9a6 3a66fc N
+37a9a6 390eb2 N
+459d86 390eb2 N
+459d86 4955e2 N
+37a9a6 4955e2 N
+37a9a6 402764 N
+3b3384 402764 N
+3e5534 434a12 N
+3e5730 434d0c N
+3f9ba2 42bf2a  Y Y
+409607 43b98f N
+3f9ba2 42bf2a  Y Y
+402984 417ab8 N
+40268a 4178bc N
+3c4360 3d9690 N
+37a9a6 3d9690 N
+37a9a6 3b9698 N
+364e62 3afeca  Y Y
+37a9a6 3a66fc N
+A23
+D1
+F128
+19d1ce 48a8e
+20fd5a 469f5a
+A24
+11dfd2 9f79e
+7fdbe 1344de
+364e62 371e9a
+A28
+42e6fe 1cf556
+A35
+7fdbe f64ae
+2c9dea 469f5a
+A10
+F0
+3ebf2 3c41e
+3ebf2 49877e
+49af52 3c41e
+49af52 49877e
+A11
+3ebf2 371e9a
+5159a 42bf2a
+24e776 2b1ad2
+210746 2b1ad2
+1d2716 2b1ad2
+A21
+D2
+7fdbe 11d4c4 7fdbe 1344de
+7fdbe 1344de 7fdbe 14b4f8
+68da4 1344de 7fdbe 1344de
+7fdbe 1344de 96dd8 1344de
+3ba56 178846 3ba56 184eb6
+3ba56 184eb6 3ebf2 188052
+a1f72 280112 9bc3a 28644a
+10450e 343676 1076aa 346812
+11dfd2 88784 11dfd2 9f79e
+11dfd2 9f79e 11dfd2 b67b8
+106fb8 9f79e 11dfd2 9f79e
+11dfd2 9f79e 134fec 9f79e
+19d1ce 31a74 19d1ce 48a8e
+19d1ce 48a8e 19d1ce 5faa8
+1861b4 48a8e 19d1ce 48a8e
+19d1ce 48a8e 1b41e8 48a8e
+20fd5a 452f40 20fd5a 469f5a
+20fd5a 469f5a 20fd5a 480f74
+1f8d40 469f5a 20fd5a 469f5a
+20fd5a 469f5a 226d74 469f5a
+2eaac8 3edefa 2eca88 3ee6ea
+2eee40 3ee8e6 2f10fa 3ee4ee
+2f10fa 3ee4ee 2f1be4 3ee0f6
+2f1be4 3ee0f6 2f24d2 3edefa
+364e62 35ae80 364e62 371e9a
+364e62 371e9a 364e62 388eb4
+34de48 371e9a 364e62 371e9a
+364e62 371e9a 37be7c 371e9a
+42e6fe 1b6c6e 42e6fe 1cf556
+42e6fe 1cf556 42e6fe 1e7e3e
+415e16 1cf556 42e6fe 1cf556
+42e6fe 1cf556 446fe6 1cf556
+A12
+D1
+7fdbe 1344de
+7fdbe f64ae
+11dfd2 9f79e
+11dfd2 dd7ce
+19d1ce 13a816
+193cfa 3edefa
+193cfa 3afeca
+1fd3b2 1ad3a2
+1fd3b2 1eb3d2
+26cda2 36268e
+24dd8a 343676
+20fd5a 3afeca
+20fd5a 3edefa
+20fd5a 42bf2a
+2fe946 143cea
+2fe946 181d1a
+28bdba 343676
+2c9dea 3afeca
+2c9dea 3edefa
+2c9dea 42bf2a
+2c9dea 469f5a
+364e62 371e9a
+364e62 3afeca
+A22
+D2
+7fdbe 1344de 3ba56 178846
+3ebf2 188052 3ebf2 371e9a
+155cca 1b36da 12a642 188052
+12a642 188052 e9476 188052
+e9476 280112 104c00 264988
+104c00 264988 104c00 24cb8a
+104c00 24cb8a 1844ee 1cd29c
+1844ee 1cd29c 1844ee 1946c2
+1844ee 1946c2 1d4ec6 143cea
+1d4ec6 143cea 28bdba 143cea
+e9476 280112 a1f72 280112
+9bc3a 28644a 888a6 28644a
+e9476 343676 10450e 343676
+1076aa 346812 1e46d2 346812
+e9476 343676 e9476 317fee
+e9476 317fee 155cca 2ab79a
+193cfa 3edefa 1464be 43b736
+1464be 43b736 e9476 43b736
+19d1ce 13a816 140186 dd7ce
+140186 dd7ce 11dfd2 dd7ce
+155cca 1b36da 155cca 181d1a
+155cca 181d1a 19d1ce 13a816
+1fd3b2 1ad3a2 1a983e 1ad3a2
+193cfa 3afeca 193cfa 37b36e
+193cfa 3afeca 20fd5a 3afeca
+20fd5a 42bf2a 1d1d2a 42bf2a
+1d1d2a 42bf2a 193cfa 3edefa
+2fe946 181d1a 2d32be 1ad3a2
+2d32be 1ad3a2 1fd3b2 1ad3a2
+1fd3b2 1eb3d2 210746 1fe766
+210746 2b1ad2 210746 1fe766
+210746 1fe766 24dd8a 23bdaa
+24dd8a 23bdaa 28bdba 23bdaa
+33663e 226266 2aadd2 2b1ad2
+2aadd2 2b1ad2 24e776 2b1ad2
+24e776 2b1ad2 28bdba 2ef116
+28bdba 2ef116 28bdba 343676
+26cda2 36268e 29e762 39404e
+2c9dea 3edefa 28bdba 42bf2a
+28bdba 42bf2a 20fd5a 42bf2a
+20fd5a 3edefa 2448b6 3edefa
+2448b6 3edefa 29e762 39404e
+28bdba 143cea 2fe946 143cea
+29e762 39404e 2e703e 34b772
+2e703e 34b772 2e703e 3116c2
+2e703e 3116c2 2f2fbc 305744
+2f2fbc 305744 2f8510 305744
+2f8510 305744 2f860e 305646
+2f860e 305646 33663e 305646
+2c9dea 3edefa 2eaac8 3edefa
+2eca88 3ee6ea 2eee40 3ee8e6
+2f24d2 3edefa 3bbb72 3edefa
+3bbb72 3edefa 3f9ba2 42bf2a
+31a7c2 42bf2a 2c9dea 42bf2a
+2c9dea 3afeca 364e62 3afeca
+33663e 1cf556 33663e 226266
+A13
+D1
+e9476 188052
+e9476 280112
+e9476 343676
+e9476 43b736
+155cca 1b36da
+155cca 2ab79a
+33663e 1cf556
+42e6fe 1cf556
+A14
+888a6 28644a
+888a6 3024aa
+A15
+19d1ce 48a8e
+20fd5a 469f5a
+A16
+1a983e 1ad3a2
+193cfa 37b36e
+1e46d2 346812
+A17
+28bdba 143cea
+28bdba 23bdaa
+A18
+31a7c2 42bf2a
+33663e 305646
+A19
+33663e 226266
+3f9ba2 42bf2a
+L8
+Z"NCdrill-1-2"
+I0
+N0
+F0
+T1
+S999
+D6
+51388 42b959 N N N N Y -1
+3e9e0 3718c9 N N N N Y -1
+24e564 2b1501 N N N N Y -1
+210534 2b1501 N N N N Y -1
+1d2504 2b1501 N N N N Y -1
+T2
+28bba8 23b7d9 N N N N Y -1
+28bba8 143719 N N N N Y -1
+T3
+e9264 187a81 N N N N Y -1
+e9264 27fb41 N N N N Y -1
+155ab8 1b3109 N N N N Y -1
+155ab8 2ab1c9 N N N N Y -1
+e9264 3430a5 N N N N Y -1
+e9264 43b165 N N N N Y -1
+33642c 1cef85 N N N N Y -1
+42e4ec 1cef85 N N N N Y -1
+T4
+11ddc0 dd1fd N N N N Y -1
+11ddc0 9f1cd N N N N Y -1
+7fbac f5edd N N N N Y -1
+7fbac 133f0d N N N N Y -1
+19cfbc 484bd N N N N Y -1
+19cfbc 13a245 N N N N Y -1
+1fd1a0 1eae01 N N N N Y -1
+1fd1a0 1acdd1 N N N N Y -1
+193ae8 3af8f9 N N N N Y -1
+193ae8 3ed929 N N N N Y -1
+20fb48 469989 N N N N Y -1
+20fb48 42b959 N N N N Y -1
+20fb48 3ed929 N N N N Y -1
+20fb48 3af8f9 N N N N Y -1
+2c9bd8 3af8f9 N N N N Y -1
+2c9bd8 3ed929 N N N N Y -1
+2c9bd8 42b959 N N N N Y -1
+2c9bd8 469989 N N N N Y -1
+364c50 3af8f9 N N N N Y -1
+364c50 3718c9 N N N N Y -1
+2fe734 181749 N N N N Y -1
+2fe734 143719 N N N N Y -1
+T5
+28bba8 3430a5 N N N N Y -1
+26cb90 3620bd N N N N Y -1
+24db78 3430a5 N N N N Y -1
+T6
+88694 285e79 N N N N Y -1
+88694 301ed9 N N N N Y -1
+31a5b0 42b959 N N N N Y -1
+3f9990 42b959 N N N N Y -1
+33642c 305075 N N N N Y -1
+33642c 225c95 N N N N Y -1
+T7
+1a962c 1acdd1 N N N N Y -1
+1e44c0 346241 N N N N Y -1
+193ae8 37ad9d N N N N Y -1
+T8
+3e9e0 3be4d N N N N Y -1
+3e9e0 4981ad N N N N Y -1
+49ad40 3be4d N N N N Y -1
+49ad40 4981ad N N N N Y -1
+$End
+$Dimensions
+0
+$End
+$Redlining
+$End
+$ConstructionLines
+0
+$End
+$NoteBalloons
+0
+$End
+$ExternalNetData
+$End
+$NCOrderLists
+$End
+$NetList
+$End

@@ -1,0 +1,17 @@
+Combined Tool Use Report
+C:\Documents and Settings\pshyvers\Desktop\My Dropbox\Class\CMPE174\Lab4\Desulfator\PCB\artwork\Desulfator_v1.0
+Date:  Wed Dec 01 21:29:43 2010
+Units: Inches
+
+Tool      Size    Type    Usage       Legend      Uses
+====      ====    ====    ======      ======      ====
+T1       0.060    Drill   Plated      A              5
+T2       0.052    Drill   Plated      B              2
+T3       0.042    Drill   Plated      C              8
+T4       0.038    Drill   Plated      D             22
+T5       0.035    Drill   Plated      E              3
+T6       0.028    Drill   Plated      F              6
+T7       0.020    Drill   Plated      G              3
+T8       0.125    Drill   Plated      H              4
+                                                  ====
+                                      TOTAL:        53
